@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.title__purple {
+    color: #6415ff;
+}
+
+button:hover {
+    background-color: #7a3df4;
+}
+
+
+/*
+
+NAVIGATION
+
+*/
+.nav__title {
+    margin-left: 8px;
+}
+
+.nav__links {
+    font-size: 14px;
+    margin-right: 0px;
+}
+
+.nav__link {
+    margin: 0 20px;
+    color: #243e63;
+    opacity: 0.8;
+}
+
+.nav__container {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__img {
+    height: 40px;
+    display: block;
+    margin-right: 0.5px;
+    margin-left: 0px;
+}
+
+.nav__login {
+    margin-left: 48px;
+    margin-right: 24px;
+    color: #243e63
+}
+
+.nav__sign {
+    margin-right: 20px;
+    border: 2px solid #6415ff;
+    background-color: #6415ff;
+    color: white;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: all 300ms ease;
+}
+
+.nav__sign:hover {
+    background-color: #7a3df4;
+    transition: all 700ms ease;
+}
+
+
+/*
+
+Recommendations page
+
+*/
+
+header {
+    max-width: 1200px;
+    padding: 100px 0;
+}
+
+.recommend__container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recommend__title {
+    font-size: 48px;
+}
+
+.recommend__para {
+    font-size: 18px;
+    color: gray;
+    margin: 32px 0;
+}
+
+.recommend__left {
+    width: 40%;
+}
+
+.recommend__right {
+    width: 60%;
+}
+
+.recommend__img{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.recommend__mini--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommend__form {
+    display: flex;
+    border: 2px solid lightgrey;
+    padding: 2px;
+    border-radius: 999px;
+    margin-left: 0px ;
+}
+
+.recommend__input {
+    flex-grow: 2;
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 252px;
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.recommend__btn {
+    border: 1px solid #6415ff;
+    background-color: #6415ff;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 999px;
+    transition: all 500ms ease;
+}
+
+.recommend__img1 {
+    height: 33px;
+    margin: 16px 0 0;
+    padding: 0 128px 0 0;
+    opacity: 0.5;
+}
+
+.recommend__sponsor {
+    margin-top: 80px;
+}
+
+.recommend__title--spons {
+    color: gray;
+    font-size: 12px;
+    opacity: 0.5;
+}
