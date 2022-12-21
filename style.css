@@ -131,7 +131,7 @@ header {
     width: 60%;
 }
 
-.recommend__img{
+.recommend__img {
     width: 100%;
     margin-left: 20px;
 }
@@ -147,7 +147,7 @@ header {
     border: 2px solid lightgrey;
     padding: 2px;
     border-radius: 999px;
-    margin-left: 0px ;
+    margin-left: 0px;
 }
 
 .recommend__input {
@@ -222,6 +222,7 @@ h4 {
     width: 45%;
     text-align: center;
 }
+
 .features__title--parag {
     font-size: 16px;
     opacity: 0.5;
@@ -237,7 +238,7 @@ h4 {
 
 .features__wrapper {
     width: 100%;
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -379,3 +380,204 @@ STEPS
     opacity: 0.3;
 }
 
+/*
+
+PLAN PAGE
+
+*/
+
+
+.plan__page {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0;
+    margin: auto;
+}
+
+/* HEAD */
+
+
+.plan__head {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan__title--purple {
+    color: #6415ff;
+    font-size: 16px;
+}
+
+.plan__main--title {
+    font-size: 48px;
+    color: #243e63;
+}
+
+.plan__para {
+    font-size: 18px;
+    padding: 16px 0;
+    color: #7C8BA1;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+.personal__pricing--box,
+.enterprise__pricing,
+.business__pricing {
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* PLANS */
+
+.plans {
+    display: flex;
+    margin: 0;
+}
+
+li {
+    margin: 8px;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.plan__list {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.plan__price {
+    font-size: 48px;
+    margin: 4px 0;
+    color: #1a202C;
+}
+
+.plan__monthly {
+    font-size: 16px;
+    color: #a0aEC0;
+}
+
+.plan__button {
+    padding: 32px 64px;
+}
+
+.personal__button,
+.business__button,
+.enterprise__button {
+    padding: 16px 32px;
+}
+
+.indi__title {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* PERSONAL */
+
+.plan__personal {
+    display: flex;
+    flex-direction: column;
+    border-top: 5px;
+    border-radius: 10px;
+    margin: 64px 32px 0 0;
+    padding: 8px 32px 0px;
+    width: 30%;
+    border: 1px solid lightgray;
+    border-top: 10px solid lightblue;
+}
+
+
+.pricing__title {
+    font-size: 20px;
+    color: #1a202C;
+}
+
+.personal__button {
+    background-color: lightblue;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+
+/* BUSINESS */
+
+.plan__business {
+    display: flex;
+    flex-direction: column;
+    border-top: 5px;
+    border-radius: 10px;
+    margin: 64px 32px 0 0;
+    padding: 8px 32px 0px;
+    width: 30%;
+    border: 1px solid lightgray;
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.business__button {
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: rgb(76, 81, 191);
+}
+
+.business__white {
+    color: white;
+}
+
+/*ENTERPRISE */
+
+
+.plan__enterprise {
+    display: flex;
+    flex-direction: column;
+    border-top: 5px;
+    border-radius: 10px;
+    margin: 64px 32px 0 0;
+    padding: 8px 32px 0px;
+    width: 30%;
+    border: 1px solid lightgray;
+    border-top: 10px solid lightcoral;
+}
+
+.enterprise__button {
+    background-color: lightcoral;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+/* 
+
+FOOTER
+
+*/
+
+#footer {
+    background-color: #6415ff;
+}
+
+.footer__combine {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.foot__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot__title {
+    font-size: 16px;
+    color: white;
+}
